@@ -1,7 +1,7 @@
 # 2018fall
 
-網站: https://github.com/mdecp2018.github.io/site-s40723240
+網站: https://mdecp2018.github.io/site-s40723240/content/index.html
 
-簡報: https://github.com/mdecp2018.github.io/site-s40723240/reveal/
+簡報: https://mdecp2018.github.io/site-s40723240/content/index.html/reveal/
 
-網誌: https://github.com/mdecp2018.github.io/site-s40723240/blog/
+網誌: https://mdecp2018.github.io/site-s40723240/content/index.html/blog/
