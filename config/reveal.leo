@@ -22,7 +22,10 @@
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
-<v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
+<v t="leo.20181020205249.1"><vh>投影片1</vh></v>
+</v>
+<v t="leo.20181020210111.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20181020210111.2"><vh>投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -124,18 +127,6 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## s40723240分組網際簡報
-
-### 虎科大機械設計工程系
-
-&lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
-&lt;/small&gt;
-
-[2018 Fall 分組網誌](./../blog/index.html)
-
-
-</t>
 <t tx="leo.20180827201621.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -322,6 +313,34 @@ make.start()
 @others
     &lt;/script&gt;
 &lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181020205249.1"># s40723240網際簡報
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+## [2018 Fall 分組網誌](./../blog/index.html)
+
+						
+</t>
+<t tx="leo.20181020210111.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181020210111.2">##  MCAD 1b W4 網際簡報
+
+*[CMSimfly](https://github.com/chiamingyen/cmsimfly)操作
+
+*[Onshape](https://www.onshape.com)操作
+
 
 
 						
