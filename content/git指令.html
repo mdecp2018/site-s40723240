@@ -1,7 +1,7 @@
 <!doctype html>
 <html><head>
 <meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>2018 Fall 分組網站</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+<title>計算機程式教材</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
 
 <script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
 <script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
@@ -17,6 +17,7 @@
 <link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
 <script type="text/javascript">SyntaxHighlighter.all();</script>
 
+<!-- for LaTeX equations 暫時不用
 <script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
 <script type="text/javascript">
 init_mathjax = function() {
@@ -37,12 +38,17 @@ init_mathjax = function() {
 }
 init_mathjax();
 </script>
+-->
+<!-- 暫時不用
 <script src="./../static/fengari-web.js"></script>
 <script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
 <script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
 <script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
 <script src="https://scrum-3.github.io/web/brython/brython.js"></script>
 <script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
 
 <script src="./../static/jquery.js"></script>
 <script type="text/javascript">
@@ -62,7 +68,7 @@ $(function(){
 </ul>
 </confmenu></header>
 <div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='git指令.html'>git指令</a><li><a href='課程簡要.html'>課程簡要</a><li><a href='操作影片.html'>操作影片</a><ul><li><a href='Week1.html'>Week1</a><li><a href='Week2.html'>Week2</a><li><a href='Week3.html'>Week3</a><li><a href='Week4.html'>Week4</a><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section>pelican 網誌 << <a href='pelican 網誌.html'>Previous</a> <a href='課程簡要.html'>Next</a> >> 課程簡要<br /><h1>git指令</h1>
-<h4>Git 新增檔案</h4>
+<p>Git 新增檔案</p>
 <ul>
 <li>git add . # 將資料先暫存到 staging area, add 之後再新增的資料, 於此次 commit 不會含在裡面.</li>
 <li>git add filename</li>
@@ -70,26 +76,26 @@ $(function(){
 <li>git add -u # 只加修改過的檔案, 新增的檔案不加入.</li>
 <li>git add -i # 進入互動模式</li>
 </ul>
-<h4>Git 刪除檔案</h4>
+<p>Git 刪除檔案</p>
 <ul>
 <li>git rm filename</li>
 </ul>
-<h4>Git 修改檔名、搬移目錄</h4>
+<p>Git 修改檔名、搬移目錄</p>
 <ul>
 <li>git mv filename new-filename</li>
 </ul>
-<h4>Git status 看目前的狀態</h4>
+<p>Git status 看目前的狀態</p>
 <ul>
 <li>git status # 看目前檔案的狀態</li>
 </ul>
-<h4>Git Commit</h4>
+<p>Git Commit</p>
 <ul>
 <li>git commit</li>
 <li>git commit -m 'commit message'</li>
 <li>git commit -a -m 'commit -message' # 將所有修改過得檔案都 commit, 但是 新增的檔案 還是得要先 add.</li>
 <li>git commit -a -v # -v 可以看到檔案哪些內容有被更改, -a 把所有修改的檔案都 commit</li>
 </ul>
-<h4>Git 產生新的 branch</h4>
+<p>Git 產生新的 branch</p>
 <ul>
 <li>git branch # 列出目前有多少 branch</li>
 <li>git branch new-branch # 產生新的 branch (名稱: new-branch), 若沒有特別指定, 會由目前所在的 branch / master 直接複製一份.</li>
@@ -102,7 +108,7 @@ $(function(){
 <li>git branch -r # 列出所有 Repository branch</li>
 <li>git branch -a # 列出所有 branch</li>
 </ul>
-<h4>Git checkout 切換 branch</h4>
+<p>Git checkout 切換 branch</p>
 <ul>
 <li>git checkout branch-name # 切換到 branch-name</li>
 <li>git checkout master # 切換到 master</li>
@@ -114,7 +120,7 @@ $(function(){
 <li>git checkout xxxx . # 將所有檔案都 checkout 出來(xxxx commit 的版本, xxxx 是 commit 的編號前四碼), 注意, 若有修改的檔案都會被還原到上一版.</li>
 <li>git checkout -- * # 恢復到上一次 Commit 的狀態(* 改成檔名, 就可以只恢復那個檔案)</li>
 </ul>
-<h4>Git diff</h4>
+<p>Git diff</p>
 <ul>
 <li>git diff master # 與 Master 有哪些資料不同</li>
 <li>git diff --cached # 比較 staging area 跟本來的 Repository</li>
@@ -126,13 +132,13 @@ $(function(){
 <li>git diff new-branch # 比較目前位置 與 branch(new-branch) 的差別</li>
 <li>git diff --stat</li>
 </ul>
-<h4>Git Tag</h4>
+<p>Git Tag</p>
 <ul>
 <li>git tag v1 ebff # log 是 commit ebff810c461ad1924fc422fd1d01db23d858773b 的內容, 設定簡短好記得 Tag: v1</li>
 <li>git tag 中文 ebff # tag 也可以下中文, 任何文字都可以</li>
 <li>git tag -d 中文 # 把 tag=中文 刪掉</li>
 </ul>
-<h4>Git log</h4>
+<p>Git log</p>
 <ul>
 <li>git log # 將所有 log 秀出</li>
 <li>git log --all # 秀出所有的 log (含 branch)</li>
@@ -152,7 +158,7 @@ $(function(){
 <li>git log --pretty=format:'%h : %s' --topo-order --graph # 依照主分支排序</li>
 <li>git log --pretty=format:'%h : %s' --date-order --graph # 依照時間排序</li>
 </ul>
-<h4>Git show</h4>
+<p>Git show</p>
 <ul>
 <li>git show ebff # 查 log 是 commit ebff810c461ad1924fc422fd1d01db23d858773b 的內容</li>
 <li>git show v1 # 查 tag:v1 的修改內容</li>
@@ -162,19 +168,19 @@ $(function(){
 <li>git show HEAD^^ # 前前一版修改的資料</li>
 <li>git show HEAD~4 # 前前前前一版修改的資料</li>
 </ul>
-<h4>Git reset 還原</h4>
+<p>Git reset 還原</p>
 <ul>
 <li>git reset --hard HEAD # 還原到最前面</li>
 <li>git reset --hard HEAD~3</li>
 <li>git reset --soft HEAD~3</li>
 <li>git reset HEAD filename # 從 staging area 狀態回到 unstaging 或 untracked (檔案內容並不會改變)</li>
 </ul>
-<h4>Git grep</h4>
+<p>Git grep</p>
 <ul>
 <li>git grep "te" v1 # 查 v1 是否有 "te" 的字串</li>
 <li>git grep "te" # 查現在版本是否有 "te" 的字串</li>
 </ul>
-<h4>Git stash 暫存</h4>
+<p>Git stash 暫存</p>
 <ul>
 <li>git stash # 丟進暫存區</li>
 <li>git stash list # 列出所有暫存區的資料</li>
@@ -182,12 +188,12 @@ $(function(){
 <li>git stash apply # 取出最新的一筆 stash 暫存資料. 但是 stash 資料不移除</li>
 <li>git stash clear # 把 stash 都清掉</li>
 </ul>
-<h4>Git merge 合併</h4>
+<p>Git merge 合併</p>
 <ul>
 <li>git merge</li>
 <li>git merge master</li>
 <li>git merge new-branch</li>
-<li>下述轉載自: ihower 的<span>&nbsp;</span><a title="Git 版本控制系統(2) 開 branch 分支和操作遠端 repo." href="http://ihower.idv.tw/blog/archives/2620" target="_blank" rel="noopener">Git 版本控制系統(2) 開 branch 分支和操作遠端 repo.</a>x</li>
+<li>下述轉載自: ihower 的<span> </span><a href="http://ihower.idv.tw/blog/archives/2620" rel="noopener" target="_blank" title="Git 版本控制系統(2) 開 branch 分支和操作遠端 repo.">Git 版本控制系統(2) 開 branch 分支和操作遠端 repo.</a>x</li>
 </ul>
 <blockquote>
 <ul>
@@ -203,36 +209,36 @@ $(function(){
 <li>git cherry-pick 321d76f # 只合併特定其中一個 commit。如果要合併多個，可以加上 -n 指令就不會先幫你 commit，這樣可以多 pick幾個要合併的 commit，最後再 git commit 即可。</li>
 </ul>
 </blockquote>
-<h4>Git blame</h4>
+<p>Git blame</p>
 <ul>
 <li>git blame filename # 關於此檔案的所有 commit 紀錄</li>
 </ul>
-<h4>Git 還原已被刪除的檔案</h4>
+<p>Git 還原已被刪除的檔案</p>
 <ul>
 <li>git ls-files -d # 查看已刪除的檔案</li>
 <li>git ls-files -d | xargs git checkout -- # 將已刪除的檔案還原</li>
 </ul>
-<h4>Git 維護</h4>
+<p>Git 維護</p>
 <ul>
 <li>git gc # 整理前和整理後的差異, 可由: git count-objects 看到.</li>
 <li>git gc --prune</li>
 <li>git fsck --full</li>
 </ul>
-<h4>Git revert 資料還原</h4>
+<p>Git revert 資料還原</p>
 <ul>
 <li>git revert HEAD # 回到前一次 commit 的狀態</li>
 <li><span>git revert HEAD^ # 回到前前一次 commit 的狀態</span></li>
 <li>git reset HEAD filename # 從 staging area 狀態回到 unstaging 或 untracked (檔案內容並不會改變)</li>
 <li>git checkout filename # 從 unstaging 狀態回到最初 Repository 的檔案(檔案內容變回修改前)</li>
 </ul>
-<h4>Git Rollback 還原到上一版</h4>
+<p>Git Rollback 還原到上一版</p>
 <ul>
 <li>git reset --soft HEAD^</li>
 <li>編輯 + git add filename</li>
 <li>git commit -m 'rollback'</li>
 </ul>
 <p>以下與 遠端 Repository 相關</p>
-<h4>Git remote 維護遠端檔案</h4>
+<p>Git remote 維護遠端檔案</p>
 <ul>
 <li>git remote</li>
 <li>git remote add new-branch http://git.example.com.tw/project.git # 增加遠端 Repository 的 branch(origin -&gt; project)</li>
@@ -241,12 +247,12 @@ $(function(){
 <li>git remote update # 更新所有 Repository branch</li>
 <li>git branch -r # 列出所有 Repository branch</li>
 </ul>
-<h4>抓取 / 切換 Repository 的 branch</h4>
+<p>抓取 / 切換 Repository 的 branch</p>
 <ul>
 <li>git fetch origin</li>
 <li>git checkout --track -b reps-branch origin/reps-branch # 抓取 reps-branch, 並將此 branch 建立於 local 的 reps-branch</li>
 </ul>
-<h4>刪除 Repository 的 branch</h4>
+<p>刪除 Repository 的 branch</p>
 <ul>
 <li>git push origin :heads/reps-branch</li>
 <li>git push origin --delete reps-branch</li>
