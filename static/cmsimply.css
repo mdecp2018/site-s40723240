@@ -1,8 +1,9 @@
 .container {
   position: relative;
+  background-image:url(https://cdn.pixabay.com/photo/2015/07/11/12/49/views-840747_960_720.jpg);background-size: cover;
 }
 header{
-  background: #ccc;
+  background-image:url(https://cdn.pixabay.com/photo/2016/03/28/09/33/island-1285147_960_720.jpg);background-size: cover;
   padding: 20px;
 }
 confmenu
