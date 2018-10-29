@@ -15,6 +15,7 @@
 <p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/pelican.leo </p>
 <p>各分組必須自行更改 @edit pelicanconf.py 中的 AUTHOR 與 SITENAME</p>
 <p>更改 @edit publishconf.py 中的 SITEURL</p>
+<h1>課程簡要</h1>
 <h2>git指令</h2>
 <p>Git 新增檔案</p>
 <ul>
@@ -204,9 +205,25 @@
 <li>git push origin :heads/reps-branch</li>
 <li>git push origin --delete reps-branch</li>
 </ul>
+<h2>第1周</h2>
+<p>學會利用基本git指令來操作</p>
+<h2>第2周</h2>
+<p>領期中作業倉儲,用Share-X</p>
+<h2>第3周</h2>
+<p>練習操作git指令</p>
+<h2>第4周</h2>
+<p><span>期中作業倉儲中 CMSimfly, Reveal, Pelican Blog 管理方法說明</span></p>
+<h2>第5周</h2>
+<p><span>列出所使用 Python 版次與關鍵字. 如何在網頁中執行 Brython 程式, 學習基本的 Python 程式語法.在網頁上, 將 Brython 執行過的程式, 以 save as 的方式存成近端 .py 檔案. 並且如何將該程式碼以 highlight 嵌入的方式呈現在 CMSimfly 的頁面上.</span></p>
+<h2>第6周</h2>
+<p><span>如何利用 git remote add 在倉儲中, 以代號表示遠端倉儲連結.升級最新的 CMSimfly 倉儲中的 flaskapp.py</span></p>
+<h2>第7周</h2>
+<p><span>說明如何在使用 CMSimfly 過程, 碰到無法正確解讀 config/content.htm 時, 可採取的更新程式碼或回報問題的流程.</span></p>
+<h2>第8周</h2>
+<p>學會用reveal投影片插入影片</p>
 <h1>期中作業用影片</h1>
 <p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p>
-<h2 style="color: #626262;">第一周</h2>
+<h2>第一周</h2>
 <p>利用 p37 中的 git 建立個人的 Github Pages 網站 <span style="font-family: Lato; font-size: 14px;"> 建立 學號.github.io 網站</span></p>
 <p><span>影片:<iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/h6UBrks6hhg?feature=youtu" width="560"></iframe></span></p>
 <h2>第二周</h2>
@@ -221,7 +238,7 @@
 <p>期中作業網站</p>
 <p>影片:<a href="https://www.youtube.com/watch?v=zdnKwxzyiRw&amp;t=2s"><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/jBaTbKd-g7w" width="560"></iframe><br/></a></p>
 <p style="color: #626262;"></p>
-<h2><span style="color: #626262;">第五周</span></h2>
+<h2>第五周</h2>
 <p>update readme.md</p>
 <p><span style="color: #626262;">影片:<iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/6fOtZ_Wt1o8?feature=youtu" width="560"></iframe></span></p>
 <p><span style="color: #626262;"></span></p>
@@ -231,9 +248,29 @@
 <h2>第七周</h2>
 <p>更改網站背景</p>
 <p>影片:<iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/N7TAG1fC48M?feature=youtu" width="560"></iframe></p>
+<h2>第八周</h2>
+<p>學會用reveal投影片插入影片</p>
+<p>影片:<iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/M6TQb3kSyWM" width="560"></iframe></p>
+<p></p>
 <h1>Python 手冊</h1>
 <p>計算機程式教材:  <a href="http://mde.tw/cp2018/content/">http://mde.tw/cp2018/content/</a> </p>
 <p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p>
+<p>範例</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+
+f = open("foo", "r", encoding="utf-8")
+f_new = open("foo.bak", "w", encoding="utf-8")
+
+for line in f:
+    if "是真的要刺下去嗎" in line:
+        line = line.replace("是真的要刺下去嗎", "不是真的要刺下去吧")
+        f_new.write(line)
+    else:
+        f_new.write(line)
+f.close()
+f_new.close()</pre>
+<p></p>
 <h1>OnShape 手冊</h1>
 <p><a href="https://www.onshape.com/">https://www.onshape.com/</a> </p>
 <p>電腦輔助設計實習課程教材: <a href="http://mde.tw/cadp2018/content/">http://mde.tw/cadp2018/content/</a> </p>

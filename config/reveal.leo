@@ -24,21 +24,24 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20181020205249.1"><vh>投影片1</vh></v>
 </v>
-<v t="leo.20181020210111.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20181020210111.1"><vh>封面投影片</vh>
 <v t="leo.20181020210111.2"><vh>投影片內容</vh></v>
+</v>
+<v t="leo.20181029155508.1" a="E"><vh>導入影片</vh>
+<v t="leo.20181029155508.2"><vh>投影片內容</vh></v>
+</v>
+<v t="leo.20181029155822.1" a="E"><vh>導入影片</vh>
+<v t="leo.20181029155822.2"><vh>投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
 <v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
 <v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
-</v>
-<v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
-<v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
 </v>
@@ -208,21 +211,6 @@ make = threading.Thread(target=domake)
 make.start()
 ```
 </t>
-<t tx="leo.20180827201621.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180827201621.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
 @tabwidth -4
@@ -340,6 +328,44 @@ make.start()
 *[CMSimfly](https://github.com/chiamingyen/cmsimfly)操作
 
 *[Onshape](https://www.onshape.com)操作
+
+
+
+						
+</t>
+<t tx="leo.20181029155508.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181029155508.2">##             week1
+
+###       導入影片 
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zdnKwxzyiRw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181029155822.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181029155822.2">##             week2
+
+###       導入影片 
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ihrK3H0TM40" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 
