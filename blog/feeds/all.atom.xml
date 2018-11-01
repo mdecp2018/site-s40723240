@@ -1,134 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系s40723240分組網誌</title><link href="https://mdecp2018.github.io/site-s40723240/blog/" rel="alternate"></link><link href="https://mdecp2018.github.io/site-s40723240/blog/feeds/all.atom.xml" rel="self"></link><id>https://mdecp2018.github.io/site-s40723240/blog/</id><updated>2018-09-10T11:00:00+08:00</updated><entry><title>s40723240個人網誌</title><link href="https://mdecp2018.github.io/site-s40723240/blog/2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecp2018.github.io,2018-09-10:/site-s40723240/blog/2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;課程簡要&lt;/p&gt;
-&lt;p&gt;git python語法基本操作&lt;/p&gt;
-&lt;p&gt;week1&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/h6UBrks6hhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;week2&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/jBaTbKd-g7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;week3&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/JOyP2Av3JIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;week4&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ihrK3H0TM40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;week5&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zdnKwxzyiRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;week6&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/maoe1-46uTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;week7&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/N7TAG1fC48M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;week8&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/M6TQb3kSyWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;git指令&lt;/p&gt;
-&lt;p&gt;Git 新增檔案&lt;/p&gt;
-&lt;p&gt;git add . # 將資料先暫存到 staging area, add 之後再新增的資料, 於此次 commit 不會含在裡面.
-git add filename
-git add modify-file # 修改過的檔案, 也要 add. (不然 commit 要加上 -a 的參數)
-git add -u # 只加修改過的檔案, 新增的檔案不加入.
-git add -i # 進入互動模式
-Git 刪除檔案&lt;/p&gt;
-&lt;p&gt;git rm filename
-Git 修改檔名、搬移目錄&lt;/p&gt;
-&lt;p&gt;git mv filename new-filename
-Git status 看目前的狀態&lt;/p&gt;
-&lt;p&gt;git status # 看目前檔案的狀態
-Git Commit&lt;/p&gt;
-&lt;p&gt;git commit
-git commit -m 'commit message'
-git commit -a -m 'commit -message' # 將所有修改過得檔案都 commit, 但是 新增的檔案 還是得要先 add.
-git commit -a -v # -v 可以看到檔案哪些內容有被更改, -a 把所有修改的檔案都 commit
-Git 產生新的 branch&lt;/p&gt;
-&lt;p&gt;git branch # 列出目前有多少 branch
-git branch new-branch # 產生新的 branch (名稱: new-branch), 若沒有特別指定, 會由目前所在的 branch / master 直接複製一份.
-git branch new-branch master # 由 master 產生新的 branch(new-branch)
-git branch new-branch v1 # 由 tag(v1) 產生新的 branch(new-branch)
-git branch -d new-branch # 刪除 new-branch
-git branch -D new-branch # 強制刪除 new-branch
-git checkout -b new-branch test # 產生新的 branch, 並同時切換過去 new-branch
-與 remote repository 有關
-git branch -r # 列出所有 Repository branch
-git branch -a # 列出所有 branch
-Git checkout 切換 branch&lt;/p&gt;
-&lt;p&gt;git checkout branch-name # 切換到 branch-name
-git checkout master # 切換到 master
-git checkout -b new-branch master # 從 master 建立新的 new-branch, 並同時切換過去 new-branch
-git checkout -b newbranch # 由現在的環境為基礎, 建立新的 branch
-git checkout -b newbranch origin # 於 origin 的基礎, 建立新的 branch
-git checkout filename # 還原檔案到 Repository 狀態
-git checkout HEAD . # 將所有檔案都 checkout 出來(最後一次 commit 的版本), 注意, 若有修改的檔案都會被還原到上一版. (git checkout -f 亦可)
-git checkout xxxx . # 將所有檔案都 checkout 出來(xxxx commit 的版本, xxxx 是 commit 的編號前四碼), 注意, 若有修改的檔案都會被還原到上一版.
-git checkout -- * # 恢復到上一次 Commit 的狀態(* 改成檔名, 就可以只恢復那個檔案)&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;課程簡要&lt;/p&gt;
-&lt;p&gt;git python語法基本操作&lt;/p&gt;
-&lt;p&gt;week1&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/h6UBrks6hhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;week2&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/jBaTbKd-g7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;week3&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/JOyP2Av3JIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;week4&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ihrK3H0TM40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;week5&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zdnKwxzyiRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;week6&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/maoe1-46uTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;week7&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/N7TAG1fC48M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;week8&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/M6TQb3kSyWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;git指令&lt;/p&gt;
-&lt;p&gt;Git 新增檔案&lt;/p&gt;
-&lt;p&gt;git add . # 將資料先暫存到 staging area, add 之後再新增的資料, 於此次 commit 不會含在裡面.
-git add filename
-git add modify-file # 修改過的檔案, 也要 add. (不然 commit 要加上 -a 的參數)
-git add -u # 只加修改過的檔案, 新增的檔案不加入.
-git add -i # 進入互動模式
-Git 刪除檔案&lt;/p&gt;
-&lt;p&gt;git rm filename
-Git 修改檔名、搬移目錄&lt;/p&gt;
-&lt;p&gt;git mv filename new-filename
-Git status 看目前的狀態&lt;/p&gt;
-&lt;p&gt;git status # 看目前檔案的狀態
-Git Commit&lt;/p&gt;
-&lt;p&gt;git commit
-git commit -m 'commit message'
-git commit -a -m 'commit -message' # 將所有修改過得檔案都 commit, 但是 新增的檔案 還是得要先 add.
-git commit -a -v # -v 可以看到檔案哪些內容有被更改, -a 把所有修改的檔案都 commit
-Git 產生新的 branch&lt;/p&gt;
-&lt;p&gt;git branch # 列出目前有多少 branch
-git branch new-branch # 產生新的 branch (名稱: new-branch), 若沒有特別指定, 會由目前所在的 branch / master 直接複製一份.
-git branch new-branch master # 由 master 產生新的 branch(new-branch)
-git branch new-branch v1 # 由 tag(v1) 產生新的 branch(new-branch)
-git branch -d new-branch # 刪除 new-branch
-git branch -D new-branch # 強制刪除 new-branch
-git checkout -b new-branch test # 產生新的 branch, 並同時切換過去 new-branch
-與 remote repository 有關
-git branch -r # 列出所有 Repository branch
-git branch -a # 列出所有 branch
-Git checkout 切換 branch&lt;/p&gt;
-&lt;p&gt;git checkout branch-name # 切換到 branch-name
-git checkout master # 切換到 master
-git checkout -b new-branch master # 從 master 建立新的 new-branch, 並同時切換過去 new-branch
-git checkout -b newbranch # 由現在的環境為基礎, 建立新的 branch
-git checkout -b newbranch origin # 於 origin 的基礎, 建立新的 branch
-git checkout filename # 還原檔案到 Repository 狀態
-git checkout HEAD . # 將所有檔案都 checkout 出來(最後一次 commit 的版本), 注意, 若有修改的檔案都會被還原到上一版. (git checkout -f 亦可)
-git checkout xxxx . # 將所有檔案都 checkout 出來(xxxx commit 的版本, xxxx 是 commit 的編號前四碼), 注意, 若有修改的檔案都會被還原到上一版.
-git checkout -- * # 恢復到上一次 Commit 的狀態(* 改成檔名, 就可以只恢復那個檔案)&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系s40723240分組網誌</title><link href="https://mdecp2018.github.io/site-s40723240/blog/" rel="alternate"></link><link href="https://mdecp2018.github.io/site-s40723240/blog/feeds/all.atom.xml" rel="self"></link><id>https://mdecp2018.github.io/site-s40723240/blog/</id><updated>2018-09-10T11:00:00+08:00</updated><entry><title>s40723240個人網誌</title><link href="https://mdecp2018.github.io/site-s40723240/blog/2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecp2018.github.io,2018-09-10:/site-s40723240/blog/2018-Fall-Project-Blog.html</id><summary type="html">&lt;h1&gt;&lt;font color="blue"&gt;課程簡要&lt;/font&gt;&lt;/h1&gt;
+&lt;h1&gt;git&amp;amp;python語法基本操作&lt;/h1&gt;
+&lt;h1&gt;week1&lt;/h1&gt;
+&lt;h1&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/h6UBrks6hhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1&gt;week2&lt;/h1&gt;
+&lt;h1&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/jBaTbKd-g7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1&gt;week3&lt;/h1&gt;
+&lt;h1&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/JOyP2Av3JIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1&gt;week4&lt;/h1&gt;
+&lt;h1&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ihrK3H0TM40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1&gt;week5&lt;/h1&gt;
+&lt;h1&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zdnKwxzyiRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1&gt;week6&lt;/h1&gt;
+&lt;h1&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/maoe1-46uTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1&gt;week7&lt;/h1&gt;
+&lt;h1&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/N7TAG1fC48M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1&gt;week8&lt;/h1&gt;
+&lt;h1&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/M6TQb3kSyWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1&gt;git 常用指令&lt;/h1&gt;
+&lt;h1&gt;git add .&lt;/h1&gt;
+&lt;h1&gt;新增所有改版內容&lt;/h1&gt;
+&lt;h1&gt;git commit -m "提交訊息, 用來辨識版本"&lt;/h1&gt;
+&lt;h1&gt;在近端提交改版內容&lt;/h1&gt;
+&lt;h1&gt;git push&lt;/h1&gt;
+&lt;h1&gt;將近端改版內容推送到遠端&lt;/h1&gt;
+&lt;h1&gt;git pull (比較與 git fetch 的差異與兩者用法)&lt;/h1&gt;
+&lt;h1&gt;拉下遠端新版本內容, 在 fossil scm 使用 fossil update&lt;/h1&gt;
+&lt;h1&gt;git log&lt;/h1&gt;
+&lt;h1&gt;查驗 git 提交推送紀錄&lt;/h1&gt;
+&lt;h1&gt;git status&lt;/h1&gt;
+&lt;h1&gt;查驗狀態&lt;/h1&gt;
+</summary><content type="html">&lt;h1&gt;&lt;font color="blue"&gt;課程簡要&lt;/font&gt;&lt;/h1&gt;
+&lt;h1&gt;git&amp;amp;python語法基本操作&lt;/h1&gt;
+&lt;h1&gt;week1&lt;/h1&gt;
+&lt;h1&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/h6UBrks6hhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1&gt;week2&lt;/h1&gt;
+&lt;h1&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/jBaTbKd-g7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1&gt;week3&lt;/h1&gt;
+&lt;h1&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/JOyP2Av3JIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1&gt;week4&lt;/h1&gt;
+&lt;h1&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ihrK3H0TM40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1&gt;week5&lt;/h1&gt;
+&lt;h1&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zdnKwxzyiRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1&gt;week6&lt;/h1&gt;
+&lt;h1&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/maoe1-46uTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1&gt;week7&lt;/h1&gt;
+&lt;h1&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/N7TAG1fC48M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1&gt;week8&lt;/h1&gt;
+&lt;h1&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/M6TQb3kSyWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1&gt;git 常用指令&lt;/h1&gt;
+&lt;h1&gt;git add .&lt;/h1&gt;
+&lt;h1&gt;新增所有改版內容&lt;/h1&gt;
+&lt;h1&gt;git commit -m "提交訊息, 用來辨識版本"&lt;/h1&gt;
+&lt;h1&gt;在近端提交改版內容&lt;/h1&gt;
+&lt;h1&gt;git push&lt;/h1&gt;
+&lt;h1&gt;將近端改版內容推送到遠端&lt;/h1&gt;
+&lt;h1&gt;git pull (比較與 git fetch 的差異與兩者用法)&lt;/h1&gt;
+&lt;h1&gt;拉下遠端新版本內容, 在 fossil scm 使用 fossil update&lt;/h1&gt;
+&lt;h1&gt;git log&lt;/h1&gt;
+&lt;h1&gt;查驗 git 提交推送紀錄&lt;/h1&gt;
+&lt;h1&gt;git status&lt;/h1&gt;
+&lt;h1&gt;查驗狀態&lt;/h1&gt;
 
 
 &lt;h2&gt;課程倉儲&lt;/h2&gt;

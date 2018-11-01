@@ -368,9 +368,12 @@ make.start()
 </t>
 <t tx="leo.20181029155508.2">##             &lt;font color="#B452CD"&gt;week1&lt;font&gt;
 
-####         說明如何利用 p37 中的 git 建立個人的 Github Pages 網站
+####         &lt;font color="#FF3030"&gt;如何利用 p37 中的 git 建立個人的 Github Pages 網站&lt;font&gt;
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/h6UBrks6hhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
 
 
 						
@@ -386,7 +389,7 @@ make.start()
 </t>
 <t tx="leo.20181029155822.2">##             &lt;font color="#B452CD"&gt;week2&lt;font&gt;
 
-###       說明如何管理個人的期中作業網站內容 
+###       &lt;font color="#FF3030"&gt;如何管理期中網站作業內容&lt;font&gt;
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/jBaTbKd-g7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -404,7 +407,10 @@ make.start()
 </t>
 <t tx="leo.20181101134459.2">##             &lt;font color="#B452CD"&gt;week3&lt;font&gt;
 
-###       week3影片 
+###        &lt;font color="#FF3030"&gt;git基本操作練習&lt;font&gt;
+
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/JOyP2Av3JIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 
@@ -422,7 +428,9 @@ make.start()
 </t>
 <t tx="leo.20181101134504.2">##            &lt;font color="#B452CD"&gt;week4&lt;font&gt;
 
-###       week4影片 
+###       &lt;font color="#FF3030"&gt;更改投影片&lt;font&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zdnKwxzyiRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 
@@ -439,7 +447,9 @@ make.start()
 </t>
 <t tx="leo.20181101134509.2">##          &lt;font color="#B452CD"&gt;week5&lt;font&gt;
 
-###       week5影片 
+###       &lt;font color="#FF3030"&gt;更改readme&lt;font&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/6fOtZ_Wt1o8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 
@@ -456,11 +466,12 @@ make.start()
 </t>
 <t tx="leo.20181101135150.2">##            &lt;font color="#B452CD"&gt;week6&lt;font&gt;
 
-###       week6影片 
+###       &lt;font color="#FF3030"&gt;升級cmsimfly倉儲的flaskapp.py&lt;font&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/maoe1-46uTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt; 
 
 
 
-						
 </t>
 <t tx="leo.20181101135231.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -473,7 +484,9 @@ make.start()
 </t>
 <t tx="leo.20181101135231.2">##             &lt;font color="#B452CD"&gt;week7&lt;font&gt;
 
-###       week7影片 
+###       &lt;font color="#FF3030"&gt;更改網站背景&lt;font&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/N7TAG1fC48M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 						
@@ -489,9 +502,9 @@ make.start()
 </t>
 <t tx="leo.20181101135234.2">##         &lt;font color="#B452CD"&gt;week8&lt;font&gt;
 
-###       week8影片 
+###       &lt;font color="#FF3030"&gt;用投影片reveal插入影片&lt;font&gt;
 
-
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/M6TQb3kSyWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 						
 </t>
 </tnodes>
