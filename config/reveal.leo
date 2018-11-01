@@ -28,28 +28,28 @@
 <v t="leo.20181020210111.2"><vh>投影片內容</vh></v>
 </v>
 <v t="leo.20181029155508.1" a="E"><vh>導入影片</vh>
-<v t="leo.20181029155508.2"><vh>投影片內容</vh></v>
+<v t="leo.20181029155508.2"><vh>week1</vh></v>
 </v>
 <v t="leo.20181029155822.1" a="E"><vh>導入影片</vh>
-<v t="leo.20181029155822.2"><vh>投影片內容</vh></v>
+<v t="leo.20181029155822.2"><vh>week2</vh></v>
 </v>
 <v t="leo.20181101134459.1" a="E"><vh>導入影片</vh>
-<v t="leo.20181101134459.2"><vh>投影片內容</vh></v>
+<v t="leo.20181101134459.2"><vh>week3</vh></v>
 </v>
 <v t="leo.20181101134504.1" a="E"><vh>導入影片</vh>
-<v t="leo.20181101134504.2"><vh>投影片內容</vh></v>
+<v t="leo.20181101134504.2"><vh>week4</vh></v>
 </v>
 <v t="leo.20181101134509.1" a="E"><vh>導入影片</vh>
-<v t="leo.20181101134509.2"><vh>投影片內容</vh></v>
+<v t="leo.20181101134509.2"><vh>week5</vh></v>
 </v>
 <v t="leo.20181101135150.1" a="E"><vh>導入影片</vh>
-<v t="leo.20181101135150.2"><vh>投影片內容</vh></v>
+<v t="leo.20181101135150.2"><vh>week6</vh></v>
 </v>
 <v t="leo.20181101135231.1" a="E"><vh>導入影片</vh>
-<v t="leo.20181101135231.2"><vh>投影片內容</vh></v>
+<v t="leo.20181101135231.2"><vh>week7</vh></v>
 </v>
 <v t="leo.20181101135234.1" a="E"><vh>導入影片</vh>
-<v t="leo.20181101135234.2"><vh>投影片內容</vh></v>
+<v t="leo.20181101135234.2"><vh>week8</vh></v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -368,10 +368,9 @@ make.start()
 </t>
 <t tx="leo.20181029155508.2">##             &lt;font color="#B452CD"&gt;week1&lt;font&gt;
 
-###        week1影片 
+####         說明如何利用 p37 中的 git 建立個人的 Github Pages 網站
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zdnKwxzyiRw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
-
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/h6UBrks6hhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 						
@@ -387,10 +386,9 @@ make.start()
 </t>
 <t tx="leo.20181029155822.2">##             &lt;font color="#B452CD"&gt;week2&lt;font&gt;
 
-###       week2影片 
+###       說明如何管理個人的期中作業網站內容 
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ihrK3H0TM40" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
-
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/jBaTbKd-g7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 						
@@ -408,7 +406,6 @@ make.start()
 
 ###       week3影片 
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/JOyP2Av3JIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 
@@ -427,7 +424,6 @@ make.start()
 
 ###       week4影片 
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zdnKwxzyiRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 						
@@ -445,7 +441,6 @@ make.start()
 
 ###       week5影片 
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/6fOtZ_Wt1o8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 						
@@ -463,7 +458,6 @@ make.start()
 
 ###       week6影片 
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/6fOtZ_Wt1o8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 						
@@ -481,7 +475,6 @@ make.start()
 
 ###       week7影片 
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/N7TAG1fC48M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 						
 </t>
@@ -498,7 +491,6 @@ make.start()
 
 ###       week8影片 
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/M6TQb3kSyWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 						
 </t>

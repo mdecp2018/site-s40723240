@@ -271,20 +271,12 @@ for line in f:
 f.close()
 f_new.close()</pre>
 <h2>範例2</h2>
-<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 導入 sys 模組
-import sys
-# 導入 keyword 模組
-import keyword
-
-def helloWorld():
-    print("Hello World!")
-
-helloWorld()
-
-# 利用 sys 模組中的 version_info 印出 Python 版次
-print("Python version: ", sys.version_info)
-# 利用 keyword 模組中的 kwlist 印出關鍵字
-print("Python keywords: ", keyword.kwlist)</pre>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+a = ['one', 'two', 'three']
+for i in a[::-1]:
+    print i</pre>
 <h2>範例3</h2>
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># -*- coding:utf-8 -*-
 
@@ -310,6 +302,54 @@ print(gbk_to_utf8, type(gbk_to_utf8))</pre>
 f = open('foo.txt', 'wb')     # 寫入二進制文件
 f.write("Hello Binary\n".encode())
 f.close()</pre>
+<h2>範例5</h2>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+for i in range(1,85):
+    if 168 % i == 0:
+        j = 168 / i;
+        if  i &gt; j and (i + j) % 2 == 0 and (i - j) % 2 == 0 :
+            m = (i + j) / 2
+            n = (i - j) / 2
+            x = n * n - 100
+            print(x)</pre>
+<h2>範例6</h2>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+a = [1, 2, 3]
+b = a[:]
+print b</pre>
+<br/><br/><br/>範例7
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+for i in range(1, 10):
+    print 
+    for j in range(1, i+1):
+        print "%d*%d=%d" % (i, j, i*j),</pre><h2>範例8</h2>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+h = 0
+leap = 1
+from math import sqrt
+from sys import stdout
+for m in range(101,201):
+    k = int(sqrt(m + 1))
+    for i in range(2,k + 1):
+        if m % i == 0:
+            leap = 0
+            break
+    if leap == 1:
+        print '%-4d' % m
+        h += 1
+        if h % 10 == 0:
+            print ''
+    leap = 1
+print 'The total is %d' % h</pre>
+<p><br/><br/><br/></p>
 <h1>OnShape 手冊</h1>
 <p><a href="https://www.onshape.com/">https://www.onshape.com/</a> </p>
 <p>電腦輔助設計實習課程教材: <a href="http://mde.tw/cadp2018/content/">http://mde.tw/cadp2018/content/</a> </p>
