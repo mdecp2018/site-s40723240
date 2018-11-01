@@ -24,7 +24,7 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20181020205249.1"><vh>投影片1</vh></v>
 </v>
-<v t="leo.20181020210111.1"><vh>封面投影片</vh>
+<v t="leo.20181020210111.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20181020210111.2"><vh>投影片內容</vh></v>
 </v>
 <v t="leo.20181029155508.1" a="E"><vh>導入影片</vh>
@@ -32,6 +32,24 @@
 </v>
 <v t="leo.20181029155822.1" a="E"><vh>導入影片</vh>
 <v t="leo.20181029155822.2"><vh>投影片內容</vh></v>
+</v>
+<v t="leo.20181101134459.1" a="E"><vh>導入影片</vh>
+<v t="leo.20181101134459.2"><vh>投影片內容</vh></v>
+</v>
+<v t="leo.20181101134504.1" a="E"><vh>導入影片</vh>
+<v t="leo.20181101134504.2"><vh>投影片內容</vh></v>
+</v>
+<v t="leo.20181101134509.1" a="E"><vh>導入影片</vh>
+<v t="leo.20181101134509.2"><vh>投影片內容</vh></v>
+</v>
+<v t="leo.20181101135150.1" a="E"><vh>導入影片</vh>
+<v t="leo.20181101135150.2"><vh>投影片內容</vh></v>
+</v>
+<v t="leo.20181101135231.1" a="E"><vh>導入影片</vh>
+<v t="leo.20181101135231.2"><vh>投影片內容</vh></v>
+</v>
+<v t="leo.20181101135234.1" a="E"><vh>導入影片</vh>
+<v t="leo.20181101135234.2"><vh>投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -305,12 +323,17 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181020205249.1"># s40723240網際簡報
+<t tx="leo.20181020205249.1"># &lt;font color="#EE7942"&gt;s40723240網際簡報&lt;font&gt;
 
-### 虎科大機械設計工程系
 
-&lt;small&gt;
-## [2018 Fall 分組網誌](./../blog/index.html)
+### &lt;font color="#0080ff"&gt;虎科大機械設計工程系&lt;font&gt;
+
+
+### [個人網誌](./../blog/index.html)
+
+
+
+### [個人網站](./../content/index.html)
 
 						
 </t>
@@ -323,7 +346,8 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181020210111.2">##  MCAD 1b W4 網際簡報
+<t tx="leo.20181020210111.2">## &lt;font color="#EE7942"&gt;MCAD 1b W4 網際簡報&lt;font&gt;
+
 
 *[CMSimfly](https://github.com/chiamingyen/cmsimfly)操作
 
@@ -342,9 +366,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181029155508.2">##             week1
+<t tx="leo.20181029155508.2">##             &lt;font color="#B452CD"&gt;week1&lt;font&gt;
 
-###       導入影片 
+###        week1影片 
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zdnKwxzyiRw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -361,13 +385,120 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181029155822.2">##             week2
+<t tx="leo.20181029155822.2">##             &lt;font color="#B452CD"&gt;week2&lt;font&gt;
 
-###       導入影片 
+###       week2影片 
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ihrK3H0TM40" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
 
 
+
+						
+</t>
+<t tx="leo.20181101134459.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101134459.2">##             &lt;font color="#B452CD"&gt;week3&lt;font&gt;
+
+###       week3影片 
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/JOyP2Av3JIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181101134504.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101134504.2">##            &lt;font color="#B452CD"&gt;week4&lt;font&gt;
+
+###       week4影片 
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zdnKwxzyiRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+						
+</t>
+<t tx="leo.20181101134509.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101134509.2">##          &lt;font color="#B452CD"&gt;week5&lt;font&gt;
+
+###       week5影片 
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/6fOtZ_Wt1o8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+						
+</t>
+<t tx="leo.20181101135150.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101135150.2">##            &lt;font color="#B452CD"&gt;week6&lt;font&gt;
+
+###       week6影片 
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/6fOtZ_Wt1o8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+						
+</t>
+<t tx="leo.20181101135231.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101135231.2">##             &lt;font color="#B452CD"&gt;week7&lt;font&gt;
+
+###       week7影片 
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/N7TAG1fC48M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+						
+</t>
+<t tx="leo.20181101135234.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101135234.2">##         &lt;font color="#B452CD"&gt;week8&lt;font&gt;
+
+###       week8影片 
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/M6TQb3kSyWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 						
 </t>
