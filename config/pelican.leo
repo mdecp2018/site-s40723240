@@ -31,7 +31,7 @@
 <v t="leo.20170709015940.1"><vh>近端</vh></v>
 <v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
 </v>
-<v t="yen.20170224232341.1"><vh>編輯 template</vh>
+<v t="yen.20170224232341.1" a="E"><vh>編輯 template</vh>
 <v t="leo.20180115093448.1" a="E"><vh>@path theme/attila/templates</vh>
 <v t="leo.20180715212936.1"><vh>@edit article.html</vh></v>
 <v t="leo.20180115093536.1"><vh>@edit base.html</vh></v>
@@ -55,12 +55,12 @@
 </v>
 <v t="leo.20170710015511.1"><vh>編輯 plugin</vh>
 <v t="leo.20170710015523.1" a="E"><vh>@path plugin</vh>
-<v t="leo.20170710015523.2" a="E"><vh>@path tipue_search</vh>
+<v t="leo.20170710015523.2"><vh>@path tipue_search</vh>
 <v t="leo.20170710015523.3"><vh>@edit tipue_search.py</vh></v>
 </v>
 </v>
 </v>
-<v t="yen.20170108171733.71" a="E"><vh>@path markdown</vh>
+<v t="yen.20170108171733.71"><vh>@path markdown</vh>
 <v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
