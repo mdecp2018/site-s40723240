@@ -1,6 +1,8 @@
 # bg9
 
-網站: https://mdecp2018.github.io/site-s40723240         https://mdecp2018.github.io/finalproject-bg9/content/index.html
+網站: https://mdecp2018.github.io/site-s40723240         
+      
+      https://mdecp2018.github.io/finalproject-bg9/content/index.html
 
 簡報: https://mdecp2018.github.io/site-s40723240/reveal/
 
