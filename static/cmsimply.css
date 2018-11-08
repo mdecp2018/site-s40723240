@@ -1,9 +1,9 @@
 .container {
   position: relative;
-  background-image:url(https://png.pngtree.com/thumb_back/fw800/20161026/pngtree-Sea-Sky-Seascape-Ocean-background-photo-747954.jpg);background-size: cover;
+  background-color:#c4e1ff;
 }
 header{
-  background-image:url(http://img2.100bt.com/upload/ttq/20140703/1404354006170.gif);background-size: cover;
+background-color:#ceceff;
   padding: 20px;
 }
 confmenu
