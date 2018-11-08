@@ -1,10 +1,10 @@
 .container {
   position: relative;
-   background-color: #A4D3EE;
+  background-image:url(https://png.pngtree.com/thumb_back/fw800/20161026/pngtree-Sea-Sky-Seascape-Ocean-background-photo-747954.jpg);background-size: cover;
 }
 header{
- background-color: #B0E0E6;
- padding: 20px;
+  background-image:url(http://img2.100bt.com/upload/ttq/20140703/1404354006170.gif);background-size: cover;
+  padding: 20px;
 }
 confmenu
 {
