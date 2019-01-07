@@ -32,6 +32,23 @@
 <p><span>來到倒數第二週了,一樣先把網站搞定</span></p>
 <h2>week8</h2>
 <p><span>終於到最後一周了,要加緊腳步做完期中作業的最後一步了,且要了解學這個的意義</span></p>
+<h1>期中後心得</h1>
+<h2>W10</h2>
+<p><span>期中結束了,要邁入期末的範圍了.這周先將P37做改版,然後用eric6來開啟pyqt5去做一些進度條的小工具.學長有教一下相關的說明,經過這次後,希望我能更加積極學習,有關python的相關語法。</span></p>
+<h2>W11</h2>
+<p>這周是建立heroku帳號密碼,用github靜態分組網站跟heroku上的動態分組網站保持同步,花了不少的時間去建立.過程花了不少時間跟心力去處理如何成功讓網站成立,也希望了解heroku網站的相關介紹。</p>
+<h2>W12</h2>
+<p><span>這周繼續上週的計畫,繼續用heroku跟github保持同步,一開始,我不了解heroku的功用想說為甚麼要同步,後來知道動態靜態網站的差異及heroku也算一個備用倉儲.之後先決定一個專題主題,經過第一次討論後大概是跟數字有關的遊戲,要有想法才能決定下一步,但是對python相關的語言不熟,所以只能先研究再來寫了。</span></p>
+<h2>W13</h2>
+<p><span>這周老師示範kmolgame裡面的小遊戲,了解它可以由leo editor編輯裡面的程式來調整遊戲相關動作,數量.發現程式不太好學.python相關語法如果不熟悉是無法編輯出來的,需要去了解一個小遊戲的python語法是由那些所構成的。</span></p>
+<h2>W14</h2>
+<p>這周是教如何設定分組密碼,過程稍有複雜.課程上教了一些python語法,能了解多少算多少,如果不行就先google尋找語法解析,老師說的一句話我覺得很不錯--程式語言只有開始沒有結束。</p>
+<h2>W15</h2>
+<p><span>這周老師是說明如何利用協同 Markdown 編輯建立期末報告, 以及如何利用 Brython 建立網際程式.盡力去理解老師所講的,就是分工合作的概念,用leo.editor去開啟.leo檔案去編輯每個自己份內的工作。</span></p>
+<h2>W16</h2>
+<p><span>期末到尾聲了,專題跟報告先有想法,然後再分析如何去做,可行是否,問題解決能力,能不能成功去執行都是要先經過思考的,沒有付出就沒有收穫.關於這周教的用cmsimfly執行ggame範例,只能先研究一下老師是如何成功去執行的。</span></p>
+<h2>W17</h2>
+<p><span>第17周課程因為是元旦連假,所以分為三天來上,學長上了一些python迴圈(控制流程),引導課程-複製與參照跟物件導向,大約是講pyqt5跟python,雖然不好懂但還是盡力去理解。</span></p>
 <h1>課程簡要</h1>
 <h2>git指令</h2>
 <p>Git 新增檔案</p>
@@ -222,6 +239,24 @@
 <li>git push origin :heads/reps-branch</li>
 <li>git push origin --delete reps-branch</li>
 </ul>
+<h2>Python語法</h2>
+<p>python基本語法<br/>● ”#”符號後是註解（comment），可以在一列的開頭或中間加入<br/>● reserved word or built-in function (變數取名請避開！)<br/>○ and, exec, not, as, finally, or, assert, for, pass, except<br/>○ break, from, print, class, global, raise, continue, if, return<br/>○ def, import, try, del, in, while, elif, is, with, else, lambda, yield<br/>● 縮排視為不同的block (在IF判斷式或迴圈的段落中使用)<br/>○ 縮排可以用tab或是數個空格(至少一個空格)。<br/>○ 空格的數量不同，視為不同的block (bug很容易因為這一點而發生)<br/>● python的每個變數視為一個object。</p>
+<p>Python variables</p>
+<p>● 不需要事先宣告變數，直接用”=“ assign value（賦值）即可。<br/>○ x=3.14 → 實數變數<br/>● 變數類型（data type）根據被賦予的值決定（之後如果被assign不同類型的數<br/>值，該變數的類型就會直接改變）<br/>○ x=‘text’ → 字串變數<br/>● 確認變數的data type: type(x)<br/>● 變數名稱中的大小寫要完全一致（a、A會當作不同的變數）<br/>● python可以在同一個指令中對多個變數賦值<br/>○ x, y = 2, 1 → x = 2, y = 1<br/>● 若想要移除變數，使用del x y<br/>● 常見的data type: number, string, list, tuple, boolean</p>
+<p>Simple input/output</p>
+<p>● input(“…”) 在螢幕上顯示字串，並等待使用者輸入字串<br/>○ x = input (“input your name: “)  螢幕上會顯示訊息 input your name:，<br/>使用者輸入的內容，會用字串類型存到x變數<br/>○ 就算使用者輸入數字，仍然是以字串類型儲存（之後會介紹如何切割字串<br/>（split），轉為數值）<br/>● print (...) 顯示在螢幕上<br/>○ e.g. print (“Hello World!!”)<br/>○ 若要一次輸出多個變數至螢幕上，直接以逗號分開 e.g. print(x,y,z)<br/>○ 也可以format output</p>
+<p>Python variable types</p>
+<p>● Number 數值<br/>○ int : a = 11<br/>○ float: a = 1.1e-18<br/>○ complex: a = 4. + 7j<br/>● String 字串 （ 用“ “ 或 ‘ ‘夾起）<br/>○ e.g. x = “Hello World!” or x = ‘Hello World!’<br/>○ 取出字串的局部：x [0:3]<br/>■ 注意：index 從 0 開始計算！<br/>■ [a:b] -- begin at index a and end before index b (e.g., x[0:3] -&gt; “Hel”)<br/>○ 不可以對字串的局部做更改，e.g. x[0:3] =”Yo!” (這個是錯誤的語法)<br/>● Boolean 邏輯<br/>○ 只有True, False兩種值，根據邏輯判斷（IF condition）的結果決定<br/>○ 兩個boolean 變數做運算，會以True=1, False=0 做整數運算</p>
+<p>Python variables: list and tuple</p>
+<p>● list, tuple<br/>○ 類似陣列的概念，但可以混雜儲存不同型態的資料，如下所示<br/>○ List： x = [ 'abcd', 786 , 2.23, 'john', 70.2]<br/>○ Tuple: y = ( 'abcd', 786 , 2.23, 'john', 70.2)<br/>○ assignment: list 使用 [], tuple 使用(), 每個元素都用”，”分開<br/>○ list 的大小及元素可以改變。tuple則不行 (類似常數陣列)<br/>○ sub-list 或是 sub-tuple語法類似取出字串局部：<br/>x[0:2]  ['abcd', 786 ]<br/>y[2:4]  (786, 2.23 )</p>
+<p>Convert data type</p>
+<p>有時候需要不同型態的資料轉換，例如將字串”10”轉成整數10<br/>下列為常用的built-in function<br/>● int (x)<br/>● float (x)<br/>● str (x)</p>
+<p>Arithmetic Operators</p>
+<p>● 加法 +<br/>○ string 相加：形成新的字串 ● 次方 **<br/>■ x = “Hello”, y = “World” ● 取餘數 %<br/>■ c = x + y → c = “HelloWorld” ● 整除至最近整數 //<br/>● 減法 - ○ 相除後取最接近的整數（整實數），<br/>● 乘法 * 結果的類型取決於兩個變數的類型：<br/>○ string 乘一個數字(int)：字串重複幾次 9//2 = 4<br/>■ x = “Yo!” 9.0//2.0 = 4.0<br/>■ y = x * 3 → y = “Yo!Yo!Yo!” 11.0//3 = 4.0<br/>● 除法 /<br/>○ 注意：兩個整數相除，結果是實數<br/>■ x = 21, y = 10<br/>■ c = x / y → c = 2.1</p>
+<p>Arithmetic Operators</p>
+<p>● 如果要進行下面的運算 a= a+b （用a+b的結果為a重新賦值）<br/>● 在python可以改寫成： a += b<br/>● 所以算術運算符號可以有<br/>+= -= *= /= %= **= //=</p>
+<p>Modules or package （也稱為library）</p>
+<p>● ”modules” or “packages”：通常是其他人寫好的函數或指令，打包成一個「工具庫」<br/>方便分享使用。（非python內建，可能會需要下載安裝）<br/>○ 本課程會用到的library: numpy (array), matplotlib (基本繪圖), basemap (地圖),<br/>netCDF (讀nc檔)<br/>● 使用方式：import module_name<br/>○ 在執行工具庫內的指令之前，就要先把modules 引進來（不然python不會認得<br/>非內建的指令）<br/>○ 使用工具庫內的指令：module_name.function (or module_name.constant)<br/>○ 可以使用import module_name as xxx (xxx是你自己取的縮寫）<br/>使用指令的語法就簡化成xxx.function，例如:<br/>import math as m</p>
 <h2>第1周</h2>
 <p>學會利用基本git指令來操作</p>
 <h2>第2周</h2>
@@ -238,6 +273,8 @@
 <p><span>說明如何在使用 CMSimfly 過程, 碰到無法正確解讀 config/content.htm 時, 可採取的更新程式碼或回報問題的流程.</span></p>
 <h2>第8周</h2>
 <p>學會用reveal投影片插入影片</p>
+<h1>個人報告影片</h1>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/1A5sSK-wV9s" width="560"></iframe></p>
 <h1>期中作業用影片</h1>
 <p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p>
 <h2>第一周</h2>
@@ -272,20 +309,28 @@
 <p>計算機程式教材:  <a href="http://mde.tw/cp2018/content/">http://mde.tw/cp2018/content/</a> </p>
 <p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p>
 <h2>範例1</h2>
-<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">#!/usr/bin/env python3
-# -*- coding:utf-8 -*-
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">arr1 = [2, 4, 6, 8, 10]
+str1 = 'hello python'
 
-f = open("foo", "r", encoding="utf-8")
-f_new = open("foo.bak", "w", encoding="utf-8")
+for i in range(10):
+    print(i)
+print('***\n')
 
-for line in f:
-    if "是真的要刺下去嗎" in line:
-        line = line.replace("是真的要刺下去嗎", "不是真的要刺下去吧")
-        f_new.write(line)
-    else:
-        f_new.write(line)
-f.close()
-f_new.close()</pre>
+for i in range(len(arr1)):
+    print(arr1[i])
+print('***\n')
+
+for i in arr1:
+    print(i)
+print('***\n')
+
+for i in str1:
+    print(i)
+print('***\n')
+
+# for i in arr1:
+#     i += 1
+# print(arr1)</pre>
 <h2>範例2</h2>
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">#!/usr/bin/python
 # -*- coding: UTF-8 -*-
