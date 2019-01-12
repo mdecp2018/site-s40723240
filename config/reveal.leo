@@ -48,19 +48,32 @@
 <v t="leo.20181101135231.1" a="E"><vh>導入影片</vh>
 <v t="leo.20181101135231.2"><vh>week7</vh></v>
 </v>
-<v t="leo.20181101135234.1" a="E"><vh>導入影片</vh>
+<v t="leo.20181101135234.1"><vh>導入影片</vh>
 <v t="leo.20181101135234.2"><vh>week8</vh></v>
 </v>
-<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
-<v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20190112185829.1" a="E"><vh>心得</vh>
+<v t="leo.20190112185829.2"><vh>week10</vh></v>
 </v>
-<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20190112190119.1" a="E"><vh>心得</vh>
+<v t="leo.20190112190119.2"><vh>week11</vh></v>
 </v>
-<v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
-<v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
+<v t="leo.20190112190135.1" a="E"><vh>心得</vh>
+<v t="leo.20190112190135.2"><vh>week12</vh></v>
 </v>
+<v t="leo.20190112190136.1" a="E"><vh>心得</vh>
+<v t="leo.20190112190136.2"><vh>week13</vh></v>
+</v>
+<v t="leo.20190112190139.1" a="E"><vh>心得</vh>
+<v t="leo.20190112190139.2"><vh>week14</vh></v>
+</v>
+<v t="leo.20190112190140.1" a="E"><vh>心得</vh>
+<v t="leo.20190112190140.2"><vh>week15</vh></v>
+</v>
+<v t="leo.20190112190142.1" a="E"><vh>心得</vh>
+<v t="leo.20190112190142.2"><vh>week16</vh></v>
+</v>
+<v t="leo.20190112190143.1" a="E"><vh>心得</vh>
+<v t="leo.20190112190143.2"><vh>week17</vh></v>
 </v>
 </v>
 </v>
@@ -148,87 +161,6 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.11">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180827201621.12"># 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
-<t tx="leo.20180827201621.13">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20180827201621.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180827201621.15"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
-<t tx="leo.20180827201621.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180827201621.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
 @tabwidth -4
@@ -506,6 +438,111 @@ make.start()
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/M6TQb3kSyWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 						
+</t>
+<t tx="leo.20190112185829.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190112185829.2">##         &lt;font color="#B452CD"&gt;week10心得&lt;font&gt;
+
+期中結束了,要邁入期末的範圍了.這周先將P37做改版,然後用eric6來開啟pyqt5去做一些進度條的小工具.學長有教一下相關的說明,經過這次後,希望我能更加積極學習,有關python的相關語法。
+
+</t>
+<t tx="leo.20190112190119.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190112190119.2">##         &lt;font color="#B452CD"&gt;week11心得&lt;font&gt;
+
+這周是建立heroku帳號密碼,用github靜態分組網站跟heroku上的動態分組網站保持同步,花了不少的時間去建立.過程花了不少時間跟心力去處理如何成功讓網站成立,也希望了解heroku網站的相關介紹。
+</t>
+<t tx="leo.20190112190135.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190112190135.2">##         &lt;font color="#B452CD"&gt;week12心得&lt;font&gt;
+
+這周繼續上週的計畫,繼續用heroku跟github保持同步,一開始,我不了解heroku的功用想說為甚麼要同步,後來知道動態靜態網站的差異及heroku也算一個備用倉儲.之後先決定一個專題主題,經過第一次討論後大概是跟數字有關的遊戲,要有想法才能決定下一步,但是對python相關的語言不熟,所以只能先研究再來寫了。
+</t>
+<t tx="leo.20190112190136.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190112190136.2">##         &lt;font color="#B452CD"&gt;week13心得&lt;font&gt;
+
+這周老師示範kmolgame裡面的小遊戲,了解它可以由leo editor編輯裡面的程式來調整遊戲相關動作,數量.發現程式不太好學.python相關語法如果不熟悉是無法編輯出來的,需要去了解一個小遊戲的python語法是由那些所構成的。
+</t>
+<t tx="leo.20190112190139.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190112190139.2">##         &lt;font color="#B452CD"&gt;w14心得&lt;font&gt;
+
+這周是教如何設定分組密碼,過程稍有複雜.課程上教了一些python語法,能了解多少算多少,如果不行就先google尋找語法解析,老師說的一句話我覺得很不錯--程式語言只有開始沒有結束。
+</t>
+<t tx="leo.20190112190140.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190112190140.2">##         &lt;font color="#B452CD"&gt;week15心得&lt;font&gt;
+
+這周老師是說明如何利用協同 Markdown 編輯建立期末報告, 以及如何利用 Brython 建立網際程式.盡力去理解老師所講的,就是分工合作的概念,用leo.editor去開啟.leo檔案去編輯每個自己份內的工作。
+</t>
+<t tx="leo.20190112190142.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190112190142.2">##         &lt;font color="#B452CD"&gt;week16心得&lt;font&gt;
+
+期末到尾聲了,專題跟報告先有想法,然後再分析如何去做,可行是否,問題解決能力,能不能成功去執行都是要先經過思考的,沒有付出就沒有收穫.關於這周教的用cmsimfly執行ggame範例,只能先研究一下老師是如何成功去執行的。
+</t>
+<t tx="leo.20190112190143.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190112190143.2">##         &lt;font color="#B452CD"&gt;week17心得&lt;font&gt;
+
+第17周課程因為是元旦連假,所以分為三天來上,學長上了一些python迴圈(控制流程),引導課程-複製與參照跟物件導向,大約是講pyqt5跟python,雖然不好懂但還是盡力去理解。
 </t>
 </tnodes>
 </leo_file>
